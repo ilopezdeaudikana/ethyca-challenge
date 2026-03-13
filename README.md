@@ -8,6 +8,8 @@ A prototype that renders a systems map from a JSON dataset, with filters, select
 - Dependency panel provides scroll-to navigation.
 - UI uses React + TypeScript + Vite, CSS Modules, and MUI controls.
 - On smaller screens the top bar collapses into toggle buttons.
+- Hello world like `e2e` tests
+- Added some unit tests
 
 **Scripts**
 1. `npm run dev` – Start the dev server
