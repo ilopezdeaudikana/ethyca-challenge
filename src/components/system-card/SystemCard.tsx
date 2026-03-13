@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import type { SystemWithMeta } from '../../types'
+import type { SystemWithMeta } from '../../types/types'
 import styles from './SystemCard.module.css'
 import { SystemCardDetails } from './SystemCardDetails'
 import { useUiStore } from '../../store/useUiStore'

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Button from '@mui/material/Button'
 import { Menu, MenuItem } from '@mui/material'
-import type { SystemWithMeta } from '../../types'
+import type { SystemWithMeta } from '../../types/types'
 import styles from './DependencyPanel.module.css'
 
 type DependencyPanelProps = {

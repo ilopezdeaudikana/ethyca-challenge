@@ -1,5 +1,5 @@
-import { LayoutMode } from '../../types'
-import type { SystemWithMeta } from '../../types'
+import { LayoutMode } from '../../types/types'
+import type { SystemWithMeta } from '../../types/types'
 import { titleCase } from '../../utils/strings'
 import { SystemCard } from '../system-card/SystemCard'
 import styles from './MapSection.module.css'

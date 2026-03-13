@@ -1,4 +1,4 @@
-import type { SystemWithMeta } from '../types'
+import type { SystemWithMeta } from '../types/types'
 
 export const getDependencies = (
   activeSystem: string | null,

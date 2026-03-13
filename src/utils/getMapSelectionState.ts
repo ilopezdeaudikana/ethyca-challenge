@@ -1,4 +1,4 @@
-import type { SystemWithMeta } from "../types"
+import type { SystemWithMeta } from "../types/types"
 
 export const getMapSelectionState = (
   activeSystem: string | null,

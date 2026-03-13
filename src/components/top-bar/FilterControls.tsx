@@ -9,7 +9,7 @@ import {
 } from '@mui/material'
 import { useState } from 'react'
 import styles from './FilterControls.module.css'
-import { LayoutMode } from '../../types'
+import { LayoutMode } from '../../types/types'
 import { titleCase } from '../../utils/strings'
 import { useSystemsData } from '../../hooks/useSystemsData'
 import { useUiStore } from '../../store/useUiStore'

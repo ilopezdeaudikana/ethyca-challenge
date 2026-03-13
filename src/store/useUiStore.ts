@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import { LayoutMode } from '../types'
+import { LayoutMode } from '../types/types'
 
 type DependencyEntry = {
   fides_key: string

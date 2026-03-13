@@ -1,5 +1,5 @@
-import { LayoutMode } from '../types'
-import type { SystemWithMeta, LayoutMode as LayoutModeType } from '../types'
+import { LayoutMode } from '../types/types'
+import type { SystemWithMeta, LayoutMode as LayoutModeType } from '../types/types'
 
 type FiltersState = {
   filteredKeys: Set<string>

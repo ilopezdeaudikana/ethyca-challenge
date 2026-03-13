@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import type { SystemDefinition, SystemWithMeta } from '../types'
+import type { SystemDefinition, SystemWithMeta } from '../types/types'
 import { dedupeSystems } from '../utils/dedupeSystems'
 import { addCategoriesAndUses } from '../utils/addCategoriesAndUses'
 

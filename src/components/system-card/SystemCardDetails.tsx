@@ -1,4 +1,4 @@
-import type { SystemWithMeta } from '../../types'
+import type { SystemWithMeta } from '../../types/types'
 import { titleCase } from '../../utils/strings'
 import styles from './SystemCardDetails.module.css'
 

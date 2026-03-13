@@ -1,7 +1,7 @@
 import { renderHook, waitFor } from '@testing-library/react'
 import { useFilters } from './useFilters'
 import { useSystemsData } from './useSystemsData'
-import { LayoutMode } from '../types'
+import { LayoutMode } from '../types/types'
 import { useDataStore } from '../store/useDataStore'
 
 describe('useFilters', () => {

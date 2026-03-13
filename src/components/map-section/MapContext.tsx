@@ -1,5 +1,5 @@
 import { createContext, useContext } from 'react'
-import type { SystemWithMeta } from '../../types'
+import type { SystemWithMeta } from '../../types/types'
 
 type MapContextValue = {
   systemsMap: Map<string, SystemWithMeta>

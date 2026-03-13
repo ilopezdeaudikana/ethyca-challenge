@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { getMapSelectionState } from './getMapSelectionState'
-import type { SystemWithMeta } from '../types'
+import type { SystemWithMeta } from '../types/types'
 import sample from '../data/sample_data.json'
 
 describe('getMapSelectionState', () => {

@@ -1,4 +1,4 @@
-import type { SystemDefinition, SystemWithMeta } from '../types'
+import type { SystemDefinition, SystemWithMeta } from '../types/types'
 import { leafCategory } from './strings'
 
 export const addCategoriesAndUses = (systems: SystemDefinition[]) => {
