@@ -1,13 +1,13 @@
-# Ethyca Systems Map (Prototype)
+# Ethyca Systems Map
 
 A prototype that renders a systems map from a JSON dataset, with filters, selection, and dependency navigation.
 
 **Summary**
-- Data is fetched from `public/sample_data.json`.
 - Filters are multi-select and the layout grouping stays stable.
 - Selecting a system highlights its direct dependencies.
 - Dependency panel provides scroll-to navigation.
 - UI uses React + TypeScript + Vite, CSS Modules, and MUI controls.
+- On smaller screens the top bar collapses into toggle buttons.
 
 **Scripts**
 1. `npm run dev` – Start the dev server
@@ -28,7 +28,7 @@ A prototype that renders a systems map from a JSON dataset, with filters, select
 - Playwright
 
 **Design Choices**
-- `useSystemsData` fetches `sample_data.json`; tests mock fetch.
+- `useSystemsData` fetches `sample_data.json`; tests mock fetch or import directly from the data folder.
 - Layout groups are derived from the full dataset, so filtering doesn’t reorder columns.
 - Dependency navigation links scroll to specific cards; if the page doesn’t overflow, those links have no effect.
 - CSS Modules keep styles scoped and easier to manage.
@@ -36,16 +36,11 @@ A prototype that renders a systems map from a JSON dataset, with filters, select
 
 **Possible Improvements**
 1. Loading/error UI for data fetch
-2. Search and quick filters
-3. Accessibility pass (keyboard, ARIA)
+2. Add search
+3. Accessibility
 4. Virtualization for large datasets
 5. Persist filters in the URL
 6. Theming
-7. Folder structure adjustments as the app grows
+7. Chnage folder structure as the app grows. Distribute files per route or feature
 8. Add another scroll-navigation panel for filtered items
 9. Use scss
-
-**Notes**
-- Data is fetched at runtime from `public/sample_data.json`.
-- Tests mock fetch to keep unit tests deterministic.
-- On smaller screens the top bar collapses into toggles and the layout narrows.
